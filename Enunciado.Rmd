@@ -19,3 +19,18 @@ De segunda opción nos topamos con una casa rural en la provincia de Cádiz. El 
 Por otro lado, descubrimos una casa en un pueblo de Málaga por el valor de 100€ la noche independientemente del número de personas. El precio de la gasolina trata de unos 38€. 
 
 Decidir cuál es la mejor alternativa según todos los criterios si lo que quiere María es gastarse el menos dinero posible, pero a la vez, pasar una estancia agradable con sus amigos.
+
+
+#Ejercicio 2
+```{r}
+source("teoriadecision_funciones_incertidumbre.R")
+
+tabla1 =crea.tablaX(c(-6, -6, -2,
+                      0,  3,  4,
+                      8, -5,  9,
+                      4, -7,  0),numalternativas = 4, numestados = 3)
+tabla1 
+
+criterio.Todos(tabla1 , alfa = 0.4, favorable = T)
+```
+
