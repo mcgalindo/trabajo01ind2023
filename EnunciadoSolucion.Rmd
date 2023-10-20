@@ -8,6 +8,7 @@ output: html_document
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
+
 # Ejercicio 1
 
 María, amante de los viajes y casas rurales, decide organizar uno a cualquier destino para el mes de julio. Se encuentra con varias opciones a considerar para ella y su grupo de amigos. El viaje será de 4 noches y 5 dias.
@@ -102,6 +103,7 @@ alquilar la casa rural de Cádiz. El criterio de Wald es el único que recomiend
 alternativa 3, esto es, la casa rural de Málaga.
 
 #Ejercicio 2 
+
 ```{r}
 source("teoriadecision_funciones_incertidumbre.R")
 
@@ -110,6 +112,11 @@ tabla1 =crea.tablaX(c(-6, -6, -2,
                       8, -5,  9,
                       4, -7,  0),numalternativas = 4, numestados = 3)
 tabla1 
+```
+
+Aplicamos los criterios:
+
+```{r}
 
 criterio.Wald(tabla1 ,T)
 criterio.Optimista(tabla1 ,T)
