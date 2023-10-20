@@ -1,0 +1,21 @@
+---
+title: "Enunciado"
+author: "Maria Caballos"
+date: '2023-10-20'
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+# Ejercicio 1 
+
+María, amante de los viajes y casas rurales, decide organizar uno a cualquier destino para el mes de julio. Se encuentra con varias opciones a considerar para ella y su grupo de amigos. El viaje será de 4 noches y 5 dias.
+
+En primer lugar, encuentra una casa rural en la Sierra de Sevilla, teniendo en cuenta que María y sus amigos son de la provincia, la gasolina no les supondrá un gasto mayor de 30€. El valor de la casa es de 120€/noche. El propietario ha decidido ofertar una tarifa interesante: descuento del 10% si el número de individuos es mayor de 15 personas y del 15% si supera a 20 individuos.
+
+De segunda opción nos topamos con una casa rural en la provincia de Cádiz. El precio de la gasolina hasta dicho lugar asciende a 45€. El precio de esta casa es de 98€/noche. Si el grupo es de 20 individuos o superior, se regala una noche.
+
+Por otro lado, descubrimos una casa en un pueblo de Málaga por el valor de 100€ la noche independientemente del número de personas. El precio de la gasolina trata de unos 38€. 
+
+Decidir cuál es la mejor alternativa según todos los criterios si lo que quiere María es gastarse el menos dinero posible, pero a la vez, pasar una estancia agradable con sus amigos.
